@@ -1,3 +1,10 @@
 body {
   background: url(./assets/bg-mobile.jpg) no-repeat center top/cover;
 }
+
+#container {
+  border: 2px solid #fff; /* Borda branca para facilitar vizualiçação depois tirar*/
+  width: 360px;
+  height: 712px;
+  margin: auto;
+}
