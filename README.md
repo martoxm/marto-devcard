@@ -1,0 +1,2 @@
+# marto-dev-progress
+Uma página estilo “link in bio” desenvolvida para demonstrar meu aprendizado em HTML e CSS. O projeto reúne meus links e redes sociais em um layout simples, responsivo e organizado, funcionando como um cartão digital que marca o início da minha jornada no desenvolvimento web. A construção desta página serviu como prática de estrutura semântica, estilização, responsividade e organização de componentes visuais, explorando conceitos fundamentais enquanto crio algo funcional e pessoal.
