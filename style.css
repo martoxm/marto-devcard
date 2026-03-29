@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: url(./assets/bg-mobile.jpg) no-repeat center top/cover;
 }
@@ -7,4 +13,9 @@ body {
   width: 360px;
   height: 712px;
   margin: auto;
+}
+#profile img{
+  width: 150px;
+  margin:auto;
+  display: block;
 }
