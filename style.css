@@ -14,8 +14,11 @@ body {
   height: 712px;
   margin: auto;
 }
-#profile img{
+
+#profile img {
   width: 150px;
-  margin:auto;
   display: block;
+  margin: auto;
 }
+
+  
