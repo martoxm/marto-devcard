@@ -45,4 +45,10 @@ ul li a {
   justify-content: center;
   align-items: center;
   padding: 16px 24px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(
+    4px
+  ); /*alguns navegadores precisam desse modo para rodar*/
 }
