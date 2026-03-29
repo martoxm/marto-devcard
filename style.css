@@ -51,4 +51,11 @@ ul li a {
   -webkit-backdrop-filter: blur(
     4px
   ); /*alguns navegadores precisam desse modo para rodar*/
+  text-decoration: none;
+  font-weight: 500;
+}
+
+ul li a:hover {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1.5px solid white;
 }
