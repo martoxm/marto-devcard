@@ -3,14 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --text-color: white;
+  --bg-url: url(./assets/bg-mobile.jpg);
+}
+
+.light {
+  --text-color: black;
+  --bg-url: url(/assets/bg-mobile-light.jpg);
+}
 
 body {
-  background: url(./assets/bg-mobile.jpg) no-repeat center top/cover;
+  background: var(--bg-url) no-repeat center top/cover;
 }
 
 body * {
   font-family: "Inter", sans-serif;
-  color: white;
+  color: var(--text-color);
 }
 #container {
   /*border: 2px solid #fff;*/ /* Borda branca para facilitar vizualiçação depois tirar*/
