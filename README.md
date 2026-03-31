@@ -25,13 +25,7 @@ Criar uma página pessoal que reúna meus links e redes sociais enquanto pratico
 - CSS3
 - JavaScript
 
-## 📂 Estrutura
 
-index.html
-/ assets
-/ css
-/ script
-/ img
 
 
 ## ✍️ Autor
