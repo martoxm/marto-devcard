@@ -33,12 +33,6 @@ index.html
 / script
 / img
 
-## 🚧 Próximos Passos
-
-[x] Adicionar animações leves
-[x] Criar uma versão dark mode
-[x] Explorar variáveis CSS
-[x] Implementar uma versão com JavaScript futuramente
 
 ## ✍️ Autor
 
