@@ -23,20 +23,22 @@ Criar uma página pessoal que reúna meus links e redes sociais enquanto pratico
 
 - HTML5
 - CSS3
+- JavaScript
 
 ## 📂 Estrutura
 
 index.html
 / assets
 / css
+/ script
 / img
 
 ## 🚧 Próximos Passos
 
-- Adicionar animações leves
-- Criar uma versão dark mode
-- Explorar variáveis CSS
-- Implementar uma versão com JavaScript futuramente
+[x] Adicionar animações leves
+[x] Criar uma versão dark mode
+[x] Explorar variáveis CSS
+[x] Implementar uma versão com JavaScript futuramente
 
 ## ✍️ Autor
 
