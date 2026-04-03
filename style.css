@@ -33,7 +33,6 @@ body * {
   color: var(--text-color);
 }
 #container {
-  /*border: 2px solid #fff;*/ /* Borda branca para facilitar vizualiçação depois tirar*/
   width: 100%;
   max-width: 588px;
   margin: 56px auto 0;
@@ -59,6 +58,7 @@ body * {
   position: relative;
   width: 64px;
   margin: 4px auto;
+  cursor: pointer;
 }
 
 #switch button {
@@ -73,6 +73,7 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
   animation: slide-back 0.4s;
+  cursor: pointer;
 }
 
 .light #switch button {
@@ -81,6 +82,11 @@ body * {
 
 #switch button:hover {
   outline: 8px solid var(--highlight-color);
+}
+
+#switch button:focus-visible {
+  outline: 3px solid var(--text-color);
+  outline-offset: 4px;
 }
 
 #switch span {
@@ -125,6 +131,11 @@ ul li a:hover {
   border: 1.5px solid var(--text-color);
 }
 
+ul li a:focus-visible {
+  outline: 3px solid var(--text-color);
+  outline-offset: 2px;
+}
+
 /*social links*/
 #social-links {
   display: flex;
@@ -144,6 +155,11 @@ ul li a:hover {
 
 #social-links a:hover {
   background: var(--highlight-color);
+}
+
+#social-links a:focus-visible {
+  outline: 3px solid var(--text-color);
+  outline-offset: 2px;
 }
 
 footer {
