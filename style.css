@@ -5,6 +5,7 @@
 }
 :root {
   --text-color: white;
+  --bg-color: #070b16;
   --bg-url: url(./assets/bg-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
@@ -15,6 +16,7 @@
 
 .light {
   --text-color: black;
+  --bg-color: #f3f5f8;
   --bg-url: url(./assets/bg-mobile-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
@@ -23,9 +25,15 @@
   --switch-bg-url: url(./assets/sun.svg);
 }
 
+html {
+  min-height: 100%;
+  background: var(--bg-color) var(--bg-url) no-repeat center top/cover;
+}
+
 body {
-  background: var(--bg-url) no-repeat center top/cover;
+  background: transparent;
   min-height: 100vh;
+  min-height: 100dvh;
 }
 
 body * {
