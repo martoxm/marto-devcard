@@ -63,7 +63,19 @@ O arquivo [style.css](style.css) concentra a identidade visual do projeto. A est
 
 Foi aplicado um reset básico em todos os elementos para remover margens e paddings padrão e facilitar o controle do layout.
 
-Depois disso, o corpo da página recebeu o fundo principal e a altura total da tela, o que ajuda a manter a composição centrada e estável.
+Na versão atual, o fundo principal foi movido para o elemento `html` e o `body` passou a usar altura mínima, em vez de altura fixa.
+
+Essa mudança foi feita para corrigir um problema comum em navegadores mobile (especialmente com barra de endereço dinâmica), onde `height: 100vh` pode gerar recortes visuais e uma faixa clara no final da página.
+
+Resumo da correção aplicada no CSS:
+
+- Adição de `--bg-color` para garantir uma cor-base de fundo em cada tema.
+- `html` com cor de fallback (`background: var(--bg-color)`) para evitar flashes claros.
+- `body` com `background: transparent`, `position: relative` e `z-index: 0`.
+- Fundo principal definitivo aplicado em `body::before` com `position: fixed`, cobrindo toda a viewport.
+- Uso de `min-height: 100vh` e `min-height: 100dvh` no `body` para compatibilidade com viewport dinâmica em celulares.
+
+O uso de `body::before` como camada fixa evita o artefato visual de "faixa branca" no fim da página em navegadores iOS mais sensíveis ao cálculo de viewport.
 
 ### Variáveis de tema
 
