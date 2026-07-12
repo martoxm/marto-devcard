@@ -4,7 +4,7 @@ function applyTheme(isLight) {
   const img = document.querySelector("#profile img")
   img.setAttribute(
     "src",
-    isLight ? "./assets/foto-perfil-light.png" : "./assets/foto-perfil.png"
+    isLight ? "./assets/foto-perfil-light.png" : "./assets/foto-perfil.png",
   )
 }
 
